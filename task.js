@@ -1,6 +1,8 @@
 import express from "express"
 
 const app=express()
+
+const user=[];
 const port=3000;
 app.get('/user/:id',(req,res)=>{
     res.send({
