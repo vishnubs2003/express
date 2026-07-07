@@ -4,6 +4,9 @@ import data from './typsOfMidlware.js'
 
 const app=express()
 
+
+const newuser=[];
+
 const port=3000
 
 app.use('/f',data)
